@@ -136,7 +136,6 @@ text-decoration: none;
 .build__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .build__title-box {
