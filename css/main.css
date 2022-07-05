@@ -66,7 +66,48 @@ body {
 }
 
 /* Site header start */
+.site-header {
+  padding: 73px 0px 129px 0px;
+  background-color: #014E56;
+}
 
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 80px;
+}
+.header-box__nav {
+  width: 140px;
+  margin-right: auto;
+}
+.header-box__list {
+  display: flex;
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.header-box__item:not(:last-child){
+  margin-right: 40px;
+}
+.header-box__link {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+color: #FFF;
+text-decoration: none;
+}
+.contact {
+  padding: 9px 33px;
+  font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+border: 2px solid #FFFFFF;
+border-radius: 24px;
+color: #FFF;
+text-decoration: none;
+}
 /* Site header end */
 
 /* Site main start */
@@ -203,7 +244,72 @@ body {
 
 
 
-/* build Section end */
+
+.find {
+  position: relative;
+  padding-bottom: 250px;
+  background-color: #014E56;
+}
+.find::before{
+  content: "";
+  position: absolute;
+  top: calc(50% + -237px);
+  right: calc(50% + 665px);
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/hero-bg.svg");
+}
+.find-box {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.find-box__box-title {
+  width: 620px;
+}
+.find-box__title {
+  margin: 0px;
+  font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #FFF;
+}
+.find-box__tiny {
+  color: #F67E7E;
+}
+.find-box__box-text {
+  position: relative;
+  width: 445px;
+  margin-top: auto;
+}
+.find-box__box-text::before{
+  content: "";
+  position: absolute;
+  top: -90px;
+  display: block;
+  width: 50px;
+  height: 4px;
+  border-bottom: 4px solid #79C8C7;
+}
+.find-box__text {
+  margin: 0px;
+  font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.find-box__text::after{
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: calc(50% + -400px);
+  right: calc(50% + -210px);
+  width: 358px;
+  height: 200px;
+  background-image: url("../images/herobot-bg.svg");
+}
+/* Section end */
+
 
 /* Site main end */
 
